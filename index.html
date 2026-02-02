@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Full Stack Developer & Security Researcher</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-bg"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">&lt;Protfolio Website&gt;</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Floating particles -->
+      <div
+        class="particle"
+        style="top: 20%; left: 10%; animation-delay: 0s"
+      ></div>
+      <div
+        class="particle"
+        style="top: 60%; left: 80%; animation-delay: 2s"
+      ></div>
+      <div
+        class="particle"
+        style="top: 40%; left: 60%; animation-delay: 4s"
+      ></div>
+      <div
+        class="particle"
+        style="top: 80%; left: 30%; animation-delay: 3s"
+      ></div>
+      <div
+        class="particle"
+        style="top: 30%; left: 90%; animation-delay: 1s"
+      ></div>
+
+      <div class="hero-content">
+        <div class="terminal-prefix" style="padding-top: 70px">
+          VISHAL VISHWAKARMA
+        </div>
+        <h1 class="glitch-text"><span>Cybersecurity Researcher </span></h1>
+        <p class="subtitle">& Full Stack Dev.</p>
+        <p class="hero-description">
+          CSE student at SIES College (Cyber Security, Blockchain & IoT).
+          Beginner developer eager to learn secure application development and
+          modern technologies. Passionate about improving my skills through
+          learning and practice.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <h2 class="section-title reveal">Technical Arsenal</h2>
+      <p class="section-subtitle reveal">Tools & technologies I work with</p>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">💻</div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <ul class="skill-list">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚙️</div>
+          <h3 class="skill-title">Backend Development</h3>
+          <ul class="skill-list">
+            <li>Node.js</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛡️</div>
+          <h3 class="skill-title">Cybersecurity</h3>
+          <ul class="skill-list">
+            <li>Penetration Testing (OWASP)</li>
+            <li>Network Security & Analysis</li>
+            <li>Vulnerability Assessment</li>
+            <li>Security Audits & Hardening</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔐</div>
+          <h3 class="skill-title">Security Tools</h3>
+          <ul class="skill-list">
+            <li>Burp Suite, Metasploit</li>
+            <li>Wireshark</li>
+            <li>Nmap</li>
+            <li>Kali Linux</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">☁️</div>
+          <h3 class="skill-title">Cloud & DevOps</h3>
+          <ul class="skill-list">
+            <li>AWS, Azure, Google Cloud</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔍</div>
+          <h3 class="skill-title">Security Practices</h3>
+          <ul class="skill-list">
+            <li>Nothing until now !!</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-subtitle reveal">Some of my recent work</p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Secure E-Commerce Platform</h3>
+            <p class="project-type">Full Stack Development</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Built a complete e-commerce platform with payment integration,
+              implementing security best practices including HTTPS, input
+              validation, and SQL injection prevention.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag security">SSL/TLS</span>
+              <span class="tag security">OAuth 2.0</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Vulnerability Scanner</h3>
+            <p class="project-type">Cybersecurity Tool</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Developed an automated vulnerability scanner that identifies
+              common security flaws in web applications, featuring customizable
+              scan profiles and detailed reports.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag security">OWASP Top 10</span>
+              <span class="tag security">XSS Detection</span>
+              <span class="tag security">SQL Injection</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Documentation</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Real-Time Analytics Dashboard</h3>
+            <p class="project-type">Full Stack Development</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Created a real-time analytics dashboard with WebSocket integration
+              for live data streaming, featuring interactive charts and secure
+              authentication.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Vue.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">WebSocket</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag security">JWT Auth</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Network Intrusion Detection</h3>
+            <p class="project-type">Cybersecurity Research</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Implemented a machine learning-based intrusion detection system
+              that analyzes network traffic patterns to identify potential
+              security threats in real-time.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag security">IDS/IPS</span>
+              <span class="tag security">Packet Analysis</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Research Paper</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Microservices Architecture</h3>
+            <p class="project-type">Full Stack Development</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Architected and deployed a microservices-based application with
+              Docker containers, implementing service mesh for secure
+              inter-service communication.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag security">mTLS</span>
+              <span class="tag security">API Gateway</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Architecture</a>
+              <a href="#" class="project-link">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Penetration Testing Framework</h3>
+            <p class="project-type">Cybersecurity Tool</p>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Built a comprehensive penetration testing framework with modular
+              exploit modules, automated reporting, and integration with popular
+              security tools.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Bash</span>
+              <span class="tag security">Metasploit</span>
+              <span class="tag security">Exploit Dev</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Documentation</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-subtitle reveal">
+        Let's build something secure and amazing together
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-grid">
+          <div class="contact-item reveal">
+            <div class="contact-icon">📧</div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">
+              <a href="mailto:your.email@example.com">vishalvishwakarma
+                15012006@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item reveal">
+            <div class="contact-icon">💼</div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">
+              <a href="#" target="_blank">linkedin.com/
+                vishalvishwakarma</a>
+            </div>
+          </div>
+
+          <div class="contact-item reveal">
+            <div class="contact-icon">🐙</div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">
+              <a href="#" target="_blank">github.com/
+                vishal-vishwakarma15</a>
+            </div>
+          </div>
+
+          <div class="contact-item reveal">
+            <div class="contact-icon">🌍</div>
+            <div class="contact-label">Instagram</div>
+            <div class="contact-value">
+              <a href="#" target="_blank">@vishalvishwakarma
+                _.15</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2026 vishal vishwakarma . Built with security in mind. All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
